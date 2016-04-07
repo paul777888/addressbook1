@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    background-colors:#fff;
+    color:#555555;
+    font-family:'Lato','Arial';
+    font-weight:300;
+    font-size:15px;
+    text-rendering:optimizeLegibility
+}
+
+.row{
+    max-width: 1140px;
+    margin:10px 50px; 
+}
+
+li{
+    list-style: none;
+}
+
+input{
+    width:50%;
+    font-size:20px;
+    margin-bottom:20px;
+}
+
+
+button{
+    font-size:20px;
+    width:30%;
+    float:left;
+    margin-left:20px;
+    margin-top:10px;
+    font:40px;
+    background:#c68484;
+}
+
+
+.row #output{
+    font-size:20px;
+    float:left;
+    width:50%; 
+    height:300px;
+    border:2px #b5b3b3 solid;
+}
+
+.highlight{
+    background-color:#585dd4;
+    font-weight:bold;
+}
