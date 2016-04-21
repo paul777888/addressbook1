@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Address book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section>
+    <fieldset>
+        <legend>Contact</legend>
+        <form id="contactForm">
+            <input type="text" id="firstName" name="firstName" autofocus placeholder="First Name">
+            <input type="text" id="lastName" name="lastName" placeholder="Last Name">
+            <input type="tel" id="telphone" name="telphone" placeholder="Telephone">
+            <button type="button" id="btnAdd">Add</button>
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <legend>Contacts</legend>
+        <select id="contacts" name="contacts" size="16" multiple></select>
+
+        <div class="btn-group">
+            <button id="btnSortByFirstName">Sort by first name</button>
+            <button id="btnSortByLastName">Sort by last name</button>
+            <button id="btnSortByTelphone">Sort by telphone</button>
+            <button id="btnDelete">Delete</button>
+            <button id="btnLoad">Load</button>
+            <button id="btnSave">Save</button>
+        </div>
+    </fieldset>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
