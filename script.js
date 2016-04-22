@@ -95,7 +95,7 @@ console.log(addressBook);
         $('#contactForm').reset();
     });
 
-    $('#K<obtnDelete').addEventListener('click', function() {
+    $('btnDelete').addEventListener('click', function() {
         var contacts = $('#contacts'),
             selected = contacts.selectedOptions,
             length = selected.length,
